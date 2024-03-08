@@ -50,8 +50,8 @@ function TodoList() {
           toggleCompleted={toggleCompleted}
         />
       ))}
-      <input value={text} onChange={(e) => setText(e.target.value)} />
-      <button onClick={() => addTask(text)}>Add</button>
+      <input className="todo-input" value={text} onChange={(e) => setText(e.target.value)} />
+      <button className="todo-add-btn" onClick={() => addTask(text)}>Add</button>
     </div>
   );
 }

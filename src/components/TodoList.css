@@ -18,11 +18,12 @@
   text-decoration: line-through;
 }
 .todo-input {
-  width: calc(100% - 60px);
+  width: calc(100% - 100px);
   padding: 10px;
   margin-right: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  margin-top: 20px;
 }
 .todo-add-btn {
   padding: 10px 20px;

@@ -4,7 +4,8 @@ import "./App.css";
 
 <h1>Pealkiri</h1>;
 
-function App() {
+function App() { 
+    
   return (
     <div className="App">
       <h1>The To-Do List app</h1>
