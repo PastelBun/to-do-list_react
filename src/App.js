@@ -2,9 +2,12 @@ import React from 'react';
 import TodoList from './components/TodoList';
 import './App.css';
 
+<h1>Pealkiri</h1>
 function App() {
- return (
+ 
+    return (   
  <div className="App">
+ <h1>The To-Do List App</h1>
  <TodoList />
  </div>
  ); 
