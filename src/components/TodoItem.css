@@ -13,9 +13,19 @@
   flex-grow: 1;
   padding-left: 8px;
   color: #333;
+  font-size: 32px;
 }
 
 .todo-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  color: #333;
+  background-color: black;
+}
+.todo-item .checkbox{
+  width: 20px;
+  height: 20px;
+  background-color: black;
 }
 
 .todo-item button {
@@ -29,10 +39,16 @@
 }
 
 .todo-item button:hover {
-  background-color: #ff5252;
+  background-color: #ff6b6b;
+color: white;
 }
 
 .todo-item.completed p {
   color: #888;
   text-decoration: line-through;
+}
+
+body {
+  background-color: #ecd47a;
+  font-size: 16px;
 }
